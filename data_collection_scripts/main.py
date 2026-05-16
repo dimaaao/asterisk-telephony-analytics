@@ -5,7 +5,7 @@ from google.oauth2 import service_account
 from datetime import datetime, timedelta
 
 # ===== CONFIG =====
-PROJECT_ID = "impact-485016"
+PROJECT_ID = "YOUR_PROJECT_ID"
 DATASET = "telephony"
 
 TABLE = f"{PROJECT_ID}.{DATASET}.raw_cdr"
